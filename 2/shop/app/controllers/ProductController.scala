@@ -11,12 +11,14 @@ import scala.collection.mutable.ListBuffer
 import play.api.Mode.Prod
 
 @Singleton
-class ProductController @Inject()(val controllerComponents: ControllerComponents) extends BaseController {
+class ProductController @Inject()(val controllerComponents: ControllerComponents, val categoryController: CategoryController) extends BaseController {
     var products = new ListBuffer[ProductClass]()
-    products += new ProductClass(0, "Product 1", 100.0, "Description 1")
+    products += new ProductClass(0, "Product 1", 100.0, "Description 1", Some(0))
     products += new ProductClass(1, "Product 2", 200.0, "Description 2")
     products += new ProductClass(2, "Product 3", 300.0, "Description 3")
     products += new ProductClass(3, "Product 4", 400.0, "Description 4")
+
+    val categories = categoryController.categories
 
     implicit val productsJson = Json.format[ProductClass]
     implicit val newProductsJson = Json.format[NewProductClass]
@@ -45,7 +47,7 @@ class ProductController @Inject()(val controllerComponents: ControllerComponents
         newProduct match {
             case Some(newItem) =>
             val nextId = products.map(_.id).max + 1
-            val toBeAdded = ProductClass(nextId, newItem.name, newItem.price, newItem.description)
+            val toBeAdded = ProductClass(nextId, newItem.name, newItem.price, newItem.description, newItem.category)
             products += toBeAdded
             Created(Json.toJson(toBeAdded))
             case None =>
