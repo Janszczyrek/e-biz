@@ -1,36 +1,52 @@
+package main
+
+import (
+	"net/http"
+	"strconv"
+	"github.com/labstack/echo/v4"
+)
 
 func getProducts(c echo.Context) error {
+	products, err := GetAllProducts()
+	if err != nil {
+		return err
+	}
 	return c.JSON(http.StatusOK, products)
 }
 func getProduct(c echo.Context) error {
 	id, _ := strconv.Atoi(c.Param("id"))
-	return c.JSON(http.StatusNotFound, products[id])
+	product, err := GetProductByID(uint(id))
+	if err != nil {
+		return err
+	}
+	return c.JSON(http.StatusOK, product)
 }
 func createProduct(c echo.Context) error {
-		p := &product{
-		ID: auto_increment,
-	}
+	p := new(product)
 	if err := c.Bind(p); err != nil {
-		return c.JSON(http.StatusBadRequest, map[string]string{"message": "Invalid input"})
+		return err
 	}
-	products[p.ID] = p
-	auto_increment++
+	if err := CreateProduct(p); err != nil {
+		return err
+	}
 	return c.JSON(http.StatusCreated, p)
 }
 
 func deleteProduct(c echo.Context) error {
 	id, _ := strconv.Atoi(c.Param("id"))
-	delete(products, id)
+	if err := DeleteProduct(uint(id)); err != nil {
+		return err
+	}
 	return c.NoContent(http.StatusNoContent)
 }
 func updateProduct(c echo.Context) error {
+	id, _ := strconv.Atoi(c.Param("id"))
 	p := new(product)
 	if err := c.Bind(p); err != nil {
 		return err
 	}
-	id, _ := strconv.Atoi(c.Param("id"))
-	products[id].Name = p.Name
-	products[id].Price = p.Price
-	products[id].Category = p.Category
-	return c.JSON(http.StatusOK, products[id])
+	if err := UpdateProduct(uint(id), p); err != nil {
+		return err
+	}
+	return c.JSON(http.StatusOK, p)
 }
