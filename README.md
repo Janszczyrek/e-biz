@@ -36,3 +36,15 @@ E-Business course 24/25
 
 :x: 5.0 wymaganie 5
 
+**Zadanie 3** Echo Go
+
+:white_check_mark: 3.0 wymaganie 1 [Link do commita 1](https://github.com/Janszczyrek/e-biz/commit/f6d4cf5a50154bd659704af495900943d0a1cb7a)
+
+:white_check_mark: 3.5 wymaganie 2 [Link do commita 2](https://github.com/Janszczyrek/e-biz/commit/bbd1cdd0a2fc2b8a466157c19be0ac03dd0cfdb0)
+
+:x: 4.0 wymaganie 3 
+
+:x: 4.5 wymaganie 4
+
+:x: 5.0 wymaganie 5
+
