@@ -48,3 +48,15 @@ E-Business course 24/25
 
 :x: 5.0 wymaganie 5
 
+**Zadanie 3** Frontend
+
+:white_check_mark: 3.0 wymaganie 1 [Link do commita 1](https://github.com/Janszczyrek/e-biz/commit/b86f5ff46c88e2bab03c084389227440b8329cc0)
+
+:white_check_mark: 3.5 wymaganie 2 [Link do commita 2](https://github.com/Janszczyrek/e-biz/commit/1caccb5d585177292e384b667c44c3163d6f4642)
+
+:white_check_mark: 4.0 wymaganie 3 [Link do commita 2](https://github.com/Janszczyrek/e-biz/commit/1caccb5d585177292e384b667c44c3163d6f4642)
+
+:white_check_mark: 4.5 wymaganie 4 [Link do commita 3](https://github.com/Janszczyrek/e-biz/commit/1d8dcab43808bc51521551973a2135aa8beb5f47)
+
+:white_check_mark: 5.0 wymaganie 5 [Link do commita 3](https://github.com/Janszczyrek/e-biz/commit/1d8dcab43808bc51521551973a2135aa8beb5f47)
+
