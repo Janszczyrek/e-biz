@@ -1,11 +1,11 @@
-import React, { useState, useEffect } from 'react';
-import Payment from './Payment';
+import React, { useState, useEffect, useContext } from 'react';
+import { CartContext } from './Cart';
 import axios from 'axios';
 
 function ProductList() {
-  const [cart, setCart] = useState([]);
   const [productsData, setProductsData] = useState([]);
   const [isLoading, setIsLoading] = useState(true);
+  const { cart, setCart } = useContext(CartContext);
 
   useEffect(() => {
     async function fetchProducts() {
@@ -20,6 +20,23 @@ function ProductList() {
     fetchProducts();
   }, []);
 
+  const addToCart = (productToAdd) => {
+    setCart(prevCart => {
+      const existingProductIndex = prevCart.findIndex(item => item.product.id === productToAdd.id);
+
+      if (existingProductIndex > -1) {
+        const updatedCart = [...prevCart];
+        updatedCart[existingProductIndex] = {
+          ...updatedCart[existingProductIndex],
+          quantity: updatedCart[existingProductIndex].quantity + 1
+        };
+        return updatedCart;
+      } else {
+        return [...prevCart, { product: productToAdd, quantity: 1 }];
+      }
+    });
+  };
+
   if (isLoading) {
     return <div>Loading products...</div>;
   }
@@ -30,11 +47,10 @@ function ProductList() {
         {productsData.map(product => (
           <li key={product.id}>
             {product.name} - ${product.price}
-            <button onClick={() => { setCart([...cart, product]); console.log(cart) }} >Add to cart</button>
+            <button onClick={() => { addToCart(product) }} >Add to cart</button>
           </li>
         ))}
       </ul>
-      <Payment cart={cart} />
     </div>
   );
 }

@@ -1,9 +1,15 @@
 import React from 'react';
-import { useState } from 'react';
+import { useState, useContext } from 'react';
 import axios from "axios";
+import { CartContext } from './Cart';
 
-function Payment({cart}) {
-    const total = cart.reduce((acc, product) => acc + product.price, 0);
+function Payment() {
+    const { cart } = useContext(CartContext);
+    const total = cart.reduce((acc, item) => {
+        const price = Number(item?.product?.price) || 0;
+        const quantity = Number(item?.quantity) || 0;
+        return acc + (price * quantity);
+    }, 0);
     const [cardNumber, setCardNumber] = useState('');
     const pay = () => {
         axios.post('http://localhost:1323/payment', {
