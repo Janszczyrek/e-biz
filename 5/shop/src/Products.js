@@ -5,12 +5,12 @@ import axios from 'axios';
 function ProductList() {
   const [productsData, setProductsData] = useState([]);
   const [isLoading, setIsLoading] = useState(true);
-  const { cart, setCart } = useContext(CartContext);
+  const { setCart } = useContext(CartContext);
 
   useEffect(() => {
     async function fetchProducts() {
       try {
-        const response = await axios.get('http://localhost:1323/products');
+        const response = await axios.get('/products');
         setProductsData(response.data);
         setIsLoading(false);
       } catch (err) {

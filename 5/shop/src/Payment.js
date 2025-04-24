@@ -12,7 +12,7 @@ function Payment() {
     }, 0);
     const [cardNumber, setCardNumber] = useState('');
     const pay = () => {
-        axios.post('http://localhost:1323/payment', {
+        axios.post('/payment', {
             total: total,
             card_number: cardNumber
         })
