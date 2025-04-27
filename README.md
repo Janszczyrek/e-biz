@@ -36,7 +36,7 @@ E-Business course 24/25
 
 :x: 5.0 wymaganie 5
 
-**Zadanie 3** Echo Go
+**Zadanie 4** Echo Go
 
 :white_check_mark: 3.0 wymaganie 1 [Link do commita 1](https://github.com/Janszczyrek/e-biz/commit/f6d4cf5a50154bd659704af495900943d0a1cb7a)
 
@@ -48,7 +48,7 @@ E-Business course 24/25
 
 :x: 5.0 wymaganie 5
 
-**Zadanie 4** Frontend
+**Zadanie 5** Frontend
 
 :white_check_mark: 3.0 wymaganie 1 [Link do commita 1](https://github.com/Janszczyrek/e-biz/commit/b86f5ff46c88e2bab03c084389227440b8329cc0)
 
