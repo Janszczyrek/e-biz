@@ -60,3 +60,15 @@ E-Business course 24/25
 
 :white_check_mark: 5.0 wymaganie 5 [Link do commita 3](https://github.com/Janszczyrek/e-biz/commit/1d8dcab43808bc51521551973a2135aa8beb5f47)
 
+**Zadanie 6** Testy
+
+:white_check_mark: 3.0 wymaganie 1 [Link do commita 1](https://github.com/Janszczyrek/e-biz/commit/3f6a0bb9e1717c69ce4640eb56a48ac03de458d1)
+
+:white_check_mark: 3.5 wymaganie 2 [Link do commita 1](https://github.com/Janszczyrek/e-biz/commit/3f6a0bb9e1717c69ce4640eb56a48ac03de458d1)
+
+:x: 4.0 wymaganie 3
+
+:x: 4.5 wymaganie 4
+
+:x: 5.0 wymaganie 5
+
