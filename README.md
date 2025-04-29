@@ -72,3 +72,15 @@ E-Business course 24/25
 
 :x: 5.0 wymaganie 5
 
+**Zadanie 7** Sonar
+
+:white_check_mark: 3.0 wymaganie 1 [Link do commita 1](https://github.com/Janszczyrek/backend_5/commit/6af10598765c95004a099379bfc4dbc7fda6feb9)
+
+:white_check_mark: 3.5 wymaganie 2 [Link do commita 2](https://github.com/Janszczyrek/e-biz/commit/73d5eb63338eba48b5b1b43d8596c72a27d98ce6)
+
+:white_check_mark: 4.0 wymaganie 3 [Link do commita 2](https://github.com/Janszczyrek/e-biz/commit/73d5eb63338eba48b5b1b43d8596c72a27d98ce6)
+
+:white_check_mark: 4.5 wymaganie 4 [Link do commita 2](https://github.com/Janszczyrek/e-biz/commit/73d5eb63338eba48b5b1b43d8596c72a27d98ce6)
+
+:white_check_mark: 5.0 wymaganie 5 [Link do commita 3](https://github.com/Janszczyrek/e-biz/commit/73d5eb63338eba48b5b1b43d8596c72a27d98ce6)
+
