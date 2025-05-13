@@ -84,3 +84,15 @@ E-Business course 24/25
 
 :white_check_mark: 5.0 wymaganie 5 [Link do commita 3](https://github.com/Janszczyrek/e-biz/commit/73d5eb63338eba48b5b1b43d8596c72a27d98ce6)
 
+**Zadanie 8** Oauth2
+
+:white_check_mark: 3.0 wymaganie 1 [Link do commita 1](https://github.com/Janszczyrek/e-biz/commit/45583dbe609eefa513d351d34d09eafae3f3e74a)
+
+:white_check_mark: 3.5 wymaganie 2 [Link do commita 1](https://github.com/Janszczyrek/e-biz/commit/45583dbe609eefa513d351d34d09eafae3f3e74a)
+
+:white_check_mark: 4.0 wymaganie 3 [Link do commita 1](https://github.com/Janszczyrek/e-biz/commit/45583dbe609eefa513d351d34d09eafae3f3e74a)
+
+:x: 4.5 wymaganie 4
+
+:x: 5.0 wymaganie 5
+
