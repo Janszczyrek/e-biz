@@ -157,4 +157,20 @@ https://github.com/user-attachments/assets/14662d69-1957-4116-bbfe-1498d1f6918c
 
 https://github.com/user-attachments/assets/01ec46f2-07e6-459e-8b75-f3b51fa00006
 
+**Zadanie 10** Chmura/CI
+
+:white_check_mark: 3.0 wymaganie 1 [Link do commita 1](https://github.com/Janszczyrek/pai_projekt1/commit/ff96769b5f8384437c259bc24f49cf59d491bfa1)
+
+:white_check_mark: 3.5 wymaganie 2 [Link do commita 1](https://github.com/Janszczyrek/pai_projekt1/commit/ff96769b5f8384437c259bc24f49cf59d491bfa1)
+
+:white_check_mark: 4.0 wymaganie 3 [Link do commita 1](https://github.com/Janszczyrek/pai_projekt1/commit/ff96769b5f8384437c259bc24f49cf59d491bfa1)
+
+:x: 4.5 wymaganie 4
+
+:x: 5.0 wymaganie 5
+
+
+https://github.com/user-attachments/assets/d5e564ea-ee3b-40be-8a9f-c2d3c8cf2629
+
+
 
