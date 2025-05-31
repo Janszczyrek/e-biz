@@ -133,13 +133,28 @@ https://github.com/user-attachments/assets/2a50f15d-7487-425f-b04a-ee04e844d555
 
 :white_check_mark: 4.0 wymaganie 3 [Link do commita 1](https://github.com/Janszczyrek/e-biz/commit/45583dbe609eefa513d351d34d09eafae3f3e74a)
 
+:x: 4.5 wymaganie 4
+
+:x: 5.0 wymaganie 5
 
 
 https://github.com/user-attachments/assets/14662d69-1957-4116-bbfe-1498d1f6918c
 
 
 
+**Zadanie 9** ChatGPT bot
+
+:white_check_mark: 3.0 wymaganie 1 [Link do commita 1](https://github.com/Janszczyrek/e-biz/commit/a2ef380fccc936490e38562e4206d94d246bcd3f)
+
+:white_check_mark: 3.5 wymaganie 2 [Link do commita 1](https://github.com/Janszczyrek/e-biz/commit/a2ef380fccc936490e38562e4206d94d246bcd3f)
+
+:x: 4.0 wymaganie 3
+
 :x: 4.5 wymaganie 4
 
 :x: 5.0 wymaganie 5
+
+
+https://github.com/user-attachments/assets/01ec46f2-07e6-459e-8b75-f3b51fa00006
+
 
